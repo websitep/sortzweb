@@ -1,0 +1,67 @@
+
+
+		<!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>SortzWeb</title>
+            <link rel="stylesheet" href="static/css/stylesheet1.css">
+            <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="formularios/index.php">
+        </head>
+        <body>
+            <div id="contenido">
+                <header>
+                        <div id="title">
+                                <h1 style="margin-left: 32vw">SortzWeb.com</h1>
+                        </div>
+                    <nav>
+                        <ul>
+                                <li><ins><a href="index.html">Home</a></ins></li>
+                                <li><ins><a href="content.htm">Content</a></ins></li>
+                                <li><ins><a href="contact.html">Contact</a></ins></li>
+                        </ul>
+                    </nav>
+                </header>
+                <section>
+                    <div id="TestoPrincipal">
+                        <hgroup>
+                            <h3>Contact with us.</h3>
+                        </hgroup>
+                        <div class="contenedor">
+                                <form action="index.php" class="formulario" id="formulario" name="formulario" method="POST">
+                                    <div class="contenedor-inputs">
+                                        <input type="text" name="nombre" placeholder="Nombre">
+                                        <input type="text" name="correo" placeholder="Correo">
+            
+                                        <div class="sexo">
+                                            <input type="radio" name="sexo" id="hombre" value="hombre">
+                                            <label class="label-radio hombre" for="hombre">Hombre</label>
+            
+                                            <input type="radio" name="sexo" id="mujer" value="mujer">
+                                            <label class="label-radio mujer" for="mujer">Mujer</label>
+                                        </div>
+            
+                                        <div class="terminos">
+                                            <input type="checkbox" name="terminos" id="terminos">
+                                            <label for="terminos">Acepto Terminos y Condiciones</label>
+                                        </div>
+            
+                                        <ul class="error" id="error"></ul>
+                                    </div>
+            
+                                    <input type="submit" class="btn" name="registrarse" value="Registrate">
+                                </form>
+            
+
+                        </div>
+        
+                    </div>
+                </section>
+            </div>
+           
+           
+        </body>
+        </html>
+        
+        

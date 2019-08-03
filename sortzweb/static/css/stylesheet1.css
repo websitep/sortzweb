@@ -1,0 +1,174 @@
+body
+{
+    background-color: antiquewhite;
+}
+#title
+{
+    
+    position: relative;
+    top: 0.2px;
+    height: 100%;
+    width: 100%;
+    background: #E9B569;
+}
+nav ul li :hover
+{
+
+    background-color: #1d1d1d;
+    color: #EA5F40;
+    border-radius: 3px;
+
+}
+nav ul li a
+{
+    text-decoration: none;
+
+}
+body div h1
+{
+
+    font-family: 'Russo One', sans-serif;
+    font-size: 5vW;
+    margin-left: 5cm;
+    text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    margin-top: 2vh;
+    padding: 14px;
+    margin: auto;
+
+
+
+}
+
+body div header nav ul li
+{
+    font-size: 3vw;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 16.56vw;
+    font-family: fantasy;
+    padding: 5px;
+    transition: all 0.5s linear;
+    -webkit-transition:all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+
+}
+ body div header nav ul
+ {
+    background: #EA5F40;
+    height: 100%;
+    width: 100%;
+ }
+ #TestoPrincipal
+ {
+    margin-top: 2.3cm;
+    width: 60%;
+    height: 80%px;
+    background-color: #1d1d1d;
+    border-radius:22px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+ }
+ #TextoSecundario
+ {
+    margin-top: 2.3cm;
+    width: 60%;
+    height: 80%px;
+    background-color: #1d1d1d;
+    border-radius:22px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.3cm;
+    text-align: center;
+
+
+ }
+ #TextoTercero
+ {
+    margin-top: 2.3cm;
+    width: 60%;
+    height: 80%px;
+    background-color: #1d1d1d;
+    border-radius:22px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.3cm;
+    text-align: center;
+ }
+ #Book2
+ {
+     position: absolute;
+     top: 160vh;
+     right: 28vw;
+     font-size: 80%;
+
+ }
+ #Contenido1
+ {
+    text-align: center;
+    display: inline-block;
+ }
+ meter
+ {
+     width:200px;
+     margin-left: 1.2cm;
+     color: #EA5F40;
+     background-color: #fff;
+     padding: 5px;
+     border-radius: 5px;
+ }
+ label
+ {
+     display: block;
+
+ }
+ #btnSubmit
+ {
+     border: none;
+     background-color: #fff;
+     color: #EA5F40;
+     padding: 4px;
+     margin: 20px;
+     cursor: pointer; 
+
+ }
+ #califícanos
+ {
+     width: 150px;
+     -webkit-appearance: none;
+     background-color: #fff;
+     height: 20px;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+ #califícanos::-webkit-slider-thumb
+ {
+     -webkit-appearance: none;
+     background-color: #EA5F40;
+     border-radius: 10px;
+     height: 15px;
+     width: 10px;
+ }
+
+
+
+
+
+
+@media screen and (min-width: 480px){
+
+}
+@media screen and (min-width: 767px){
+
+}
+@media screen and (min-width: 950px){
+
+}
